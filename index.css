@@ -1,0 +1,52 @@
+/* 1. 기본 설정 */
+*{ padding: 0px; margin: 0px;}
+li{ list-style-type: none;}
+a{ text-decoration: none; color: black;}
+
+.button{border: none;}
+.box-black{ 
+    background-color: black; border: solid 1px gray;
+    display: inline-flex; width: 10px; height: 10px;}
+.box-white{ 
+    background-color: white; border: solid 1px gray;
+    display: inline-flex; width: 10px; height: 10px;}
+.red{ color: red;}
+.gray-text{ color: gray;}
+.size{ font-size: 12px ;}
+.line-through{ text-decoration: line-through ;}
+
+
+/* 2. HEADER */
+.head-top{ 
+    width: 437px; 
+    justify-self: end;
+    
+}
+
+.head-top > ul{ display: flex; justify-content: space-between;}
+.head-top > li{}
+
+.head-main{ /* 자리 차지 해야 함 */
+    display: flex;
+    position: sticky; top: 0px;
+    background-color: white; opacity: 60%;
+    padding: 20px;
+}
+.head-main > .head-menu{ display: flex;}
+
+.head-main > .search > button > img{
+    width: 15px; }
+
+
+
+/* 3. 본문 */
+.box-black{ 
+    background-color: black; border: solid 1px gray;
+    display: inline-flex; width: 10px; height: 10px;}
+.box-white{ 
+    background-color: white; border: solid 1px gray;
+    display: inline-flex; width: 10px; height: 10px;}
+.red{ color: red;}
+.gray-text{ color: gray;}
+.size{ font-size: 12px ;}
+.line-through{ text-decoration: line-through ;}
